@@ -1,0 +1,303 @@
+.menu-container, .container-1, .container-5,.container-7{
+    background-color: #F5EFD5;
+}
+
+.container-1, .container-2, .container-3, .container-4, .container-5, .container-6, .container-7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 44px;
+}
+
+.containar-nav{
+    position: unset !important;
+    background-color: #F5EFD5 !important;
+
+}
+
+.navbar-toggler{
+    background-color: #A53F26 !important;    
+}
+
+.container-1 .h1-text{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container .circulos{
+    position: absolute;
+    z-index: 100;
+}
+
+.container-1 span{
+    color: #A53F26;
+}
+
+.container-2{
+    padding-top: 0;
+    background-color: #246060;
+}
+
+.container-2 .h3-text{
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.container-2 p{
+    color:#FFFFFF;
+    font-size: 12px;
+}
+
+.container-3{
+    background-color: #F2B0A7;
+}
+
+.container-4, .container-6{
+    background-color: #A53F26;
+}
+
+.container-7 h2{
+    font-size: 20px;
+    color: #A53F26;
+    font-weight: 600;
+}
+
+.container-7{
+    align-items: baseline !important;
+}
+
+.container-nav, .container-contatos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.container-nav a, .container-contatos a{
+    margin-bottom: 4px;
+}
+
+.cnpj-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.cnpj-container p{
+    font-size: 10px;
+    margin-top: 4px;
+}
+
+
+.button-quero, .button-espera{
+    background-color: #F5EFD5;
+    border-color: #F5EFD5;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 12px;
+    width: 90px;
+    height: 30px;
+}
+
+.button-espera{
+    width: 130px !important;
+}
+
+
+.button-saibamais{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border-color: #000000;
+    color: #000000;
+    font-weight: bold;
+    font-size: 12px;
+    width: 102px;
+    height: 30px;
+}
+
+.container-buttons{
+    margin-top: 20px;
+}
+
+
+.button-mae{
+    background-color: #A53F26;
+    border-radius: 10px;
+    border-color: #A53F26;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 12px;
+    width: 102px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+
+.button-horario{
+    background-color: #246060;
+    border-radius: 10px;
+    border-color: #246060;
+    color: #F5EFD5;
+    font-weight: bold;
+    font-size: 12px;
+    width: 200px;
+    height: 60px;
+    margin-top: 20px;
+    white-space: break-spaces;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.container-acolhimento, .container-bulsola, .container-equilibrio, .container-descorberta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 208px;
+    background-color: #F5EFD5;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+.container-acolhimento h2, .container-bulsola h2, .container-equilibrio h2, .container-descorberta h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #A53F26;
+   
+}
+
+.green{
+    color: #246060 !important;
+    margin-bottom: 10px;
+}
+
+
+.texto-maria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 315px;
+    height: 358px;
+    background-color: #F5EFD5;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.container-nome{
+    font-size: 14px;
+    color: #A53F26;
+    margin-bottom: 10px;
+}
+
+.h2-dani{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.texto-sobre{
+    text-align: center;
+    white-space: break-spaces;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.color-text{
+    color: #F2B0A7;
+    font-weight: bold;
+}
+
+.falando{
+    font-size: 22px;
+    color: #F5EFD5;
+    font-weight: bold;
+}
+
+.falando-color{
+    font-size: 22px;
+    color: #F2B0A7;
+    font-weight: bold;
+}
+
+.beneficios{
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.beneficios span{
+    color: #F2B0A7;
+}
+
+.container-5{
+    text-align: center;
+}
+
+.container-5 h2{
+    color: #A53F26;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+
+.container-5 span{
+    color: #A53F26;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.container-4, .container-3, .container-2{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.container-4 h2, .container-3 h2, .container-2 h2{
+    color: #F5EFD5;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.relaxamento span, .tarot-text span, .reiki-text span{
+ font-weight: bold;
+}
+
+.relaxamento, .tarot-text, .reiki-text{
+    margin-bottom: 20px;
+}
+
+
+
+
