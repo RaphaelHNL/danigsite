@@ -148,7 +148,9 @@
     margin-top: 20px;
 }
 
-
+.h2-texto{
+    display: none;
+}
 .button-horario{
     background-color: #246060;
     border-radius: 10px;
@@ -298,6 +300,121 @@
     margin-bottom: 20px;
 }
 
+.only-desktop{
+    display: none;
+}
 
+.sobre-desktop, .container-danigdesk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .container-1 {
+        flex-direction: row;
+        width: 100% !important;
+        max-width: 100%;
+        justify-content: space-between;
+    }
+
+    .only-desktop{
+        display: block;
+        grid-column: 1;
+    }
+    .desktop-cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        position: absolute;
+        z-index: 20;
+    }
+
+    .container-2, .container-3, .container-4{
+        width: 372px;
+        height: 366px;
+        border-radius: 14px;
+    }
+
+    .mae-desktop{
+        width: 100%;
+        background-image: url("img/mae.svg");
+        background-repeat: no-repeat;
+        height: 617px;
+        background-size: 100%;
+    }
+
+    .container-5{
+        width: 372px;
+        height: 366px;
+        border-radius: 14px;
+        position: absolute;
+        z-index: 20;
+    }
+
+    .beneficios-desktop{
+        width: 100%;
+        max-width: 100%;
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: 1fr 2fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .beneficios{
+        grid-column: 2;
+    }
+
+    .container-beneficios{
+
+    align-self: center;
+
+    display: grid;
+    width: 55%;
+    grid-template-columns: 1fr 1fr;
+    }
+
+
+    .sobre-desktop{
+        background-color:#F5EFD5;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .container-danigdesk{
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+
+    .danig-imgsobre{
+        grid-column: 2;
+    }
+    .h2-dani{
+        display: none;
+    }
+
+    .h2-texto{
+        display: block;
+    }
+    .texto-sobre{
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .sobre-desktop{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+  }
 
 
