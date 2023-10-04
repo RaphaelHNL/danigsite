@@ -89,6 +89,10 @@
     margin-bottom: 20px;
 }
 
+.sobre-desktop{
+    display: none;
+}
+
 .container-nav a, .container-contatos a{
     margin-bottom: 4px;
 }
